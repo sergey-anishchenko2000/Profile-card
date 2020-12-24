@@ -1,0 +1,91 @@
+.background {
+    background: hsl(185, 75%, 39%);
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/bg-pattern-top.svg),
+    url(../assets/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position:right calc(50vw + 15%) bottom calc(50vh - 15vw),
+    left calc(40vw + 25%) top calc(70vh - 10vw);
+    .container {
+        width: 85%;
+        max-width: 350px;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .card {
+            width: 92%;
+            height: 100%;
+            background-color: white;
+            margin: 0 auto;
+            border-radius: 12px;
+            .card-header {
+                height: 16vh;
+                background-image: url(../assets/bg-pattern-card.svg);
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .profile {
+                text-align: center;
+                .profile_img {
+                    margin-top: -40px;
+                    border: 3px solid white;
+                    border-radius: 50%;
+                }
+                .profile_name {
+                    font-family: 'Kumbh Sans', sans-serif;
+                    color: hsl(229, 23%, 23%);
+                    font-weight: 600;
+                    padding-top: 1em;
+                }
+                .profile_age {
+                    font-family: 'Kumbh Sans', sans-serif;
+                    color: hsl(227, 10%, 46%);
+                    padding-top: 1em;
+                }
+                .profile_city {
+                    font-family: 'Kumbh Sans', sans-serif;
+                    color: hsl(227, 10%, 46%);
+                }
+            }
+            .divider {
+                border-top: 1px solid black;
+            }
+            .content {
+                height: 10vh;
+                text-align: center;
+                margin-top: 1em;
+
+                .show {
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-around;                    
+                    .label_name {
+                        font-family: 'Kumbh Sans', sans-serif;
+                        color: hsl(229, 23%, 23%);
+                        font-weight: 600;
+                        padding-top: 1em;
+                    }
+                    .label_detail {
+                        font-family: 'Kumbh Sans', sans-serif;
+                        color: hsl(227, 10%, 46%);
+                        font-size: 0.7em;
+                        display:block;
+                        padding-top: 0.5em;
+                    }
+                }
+            }
+
+        }
+    
+    }
+}
+
+
+
+
+
+
+
