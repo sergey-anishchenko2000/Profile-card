@@ -7,7 +7,7 @@
                 <div>
                     <div class="profile">
                         <div >
-                            <img class="profile_img" src="/assets/image-victor.jpg" />
+                            <img class="profile_img" alt="Profile image" src="../assets/image-victor.jpg" />
                             <p class="profile_name"> Vitor Crest                                 
                                 <span class="profile_age" > 26 </span> 
                             </p>
